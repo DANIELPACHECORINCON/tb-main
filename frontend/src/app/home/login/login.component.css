@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 16px 0px;
+}
+
+/* si abrimos de un dispositivo movil le decimos que el tamaño minimo sea de 150px
+* si lapantalla es demaciado grande le decimos que tome el tamaño de 500px
+*/
+.card {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 100%;
+  background-color: #ffffff;
+}
